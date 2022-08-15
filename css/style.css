@@ -1,0 +1,42 @@
+@media all and (min-width: 992px) {
+    .fecha {
+        font-size: 50px;
+    }
+    .hora {
+        font-size: 200px;
+    }
+
+}
+
+@media all and (max-width: 991px) and (min-width: 768px){
+    .fecha {
+        font-size: 50px;
+    }
+    .hora {
+        font-size: 150px;
+    }
+}
+@media all and (max-width: 777px) and (min-width: 576px){
+    .fecha {
+        font-size: 25px;
+    }
+    .hora {
+        font-size: 100px;
+    }
+}
+@media all and (max-width: 575px) and (min-width: 262px){
+    .fecha {
+        font-size: 15px;
+    }
+    .hora {
+        font-size: 50px;
+    }
+}
+@media all and (max-width: 261px) {
+    .fecha {
+        font-size: 10px;
+    }
+    .hora {
+        font-size: 30px;
+    }
+}
